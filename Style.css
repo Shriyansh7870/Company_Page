@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ 
+}
+body{
+    font-family: montserrat;
+    background-color: #0082e6;
+    overflow-y: hidden;
+}
+nav{
+background: #0082e6; 
+height: 80px;
+width: 100%;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 280px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 25px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.first{
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: orangered;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+a.active,a:hover{
+    background-color: #1b9bff;
+    transition:.5s;
+}
+.conatiner{
+width: 1200px;
+height: auto;
+margin: auto;
+color: white;
+position: relative;
+}
+.conatiner .para{
+padding: 20px;
+padding-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+.conatiner h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.conatiner .cn{
+    width:160px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    background:  orangered;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: white;
+    transition: .4s ease;
+}
+.conatiner .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+    
+}
+.cn:hover{
+    background-color: black;
+}
+.form{
+    position: relative;
+    width:380px;
+    height: 380px;
+    top:-280px;
+    left: 800px;
+    padding: 25px;
+    line-height:45px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.checkbox{
+    font-size: 14px;
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    font-weight: bolder;
+  font-size: 32px;
+  color: rgb(3, 3, 116);
+}
+input{
+   width:180px;
+   height: 30px;
+   font-size: 16px;
+   text-align: center;
+   border-radius: 10px;
+   border: none;
+   border: 1px solid grey;
+}
+#check{
+    width: 25px;
+    height: 15px;
+}
+.btnn{
+    width: 180px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+}
+.btnn2{
+    width: 180px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;  
+}
+.sign{
+    color:  orangered;
+}
+.paragraph{
+    color: #000;
+}
+.or{
+    color: #000;
+    font-size: 20px;
+}
